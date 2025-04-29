@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Features">
+      <UniqueIdentifier>{56cc5822-4c7d-4803-a64b-9825c7073cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{e1904410-7787-4a88-9be1-8506cd31b781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{62ad0757-e03d-4a0d-bceb-27e7fdd7e266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\IoControl">
+      <UniqueIdentifier>{02a38293-822d-48af-9015-9fad2f9c5909}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Features\BaseAddress.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Definitions.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Structs.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\IoControl\IoDeviceControl.h">
+      <Filter>Main\IoControl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main\Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
